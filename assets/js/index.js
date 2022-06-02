@@ -38,3 +38,7 @@ $("#btnLogout").click(() => {
         }
     );
   });
+  //发布切换侧边栏
+  function change (){
+    $('#change').attr('class','layui-this').next().attr('class','')
+  }
